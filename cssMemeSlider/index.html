@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Слайдер на чистом CSS</title>
+</head>
+<body>
+    <div class="slider">
+        <input type="radio" name="slider" id="slide1" checked class="slider__input">
+        <input type="radio" name="slider" id="slide2" class="slider__input">
+        <input type="radio" name="slider" id="slide3" class="slider__input">
+        <input type="radio" name="slider" id="slide4" class="slider__input">
+        <div class="slider__wrapper">
+            <div class="slider__overflow">
+                <div class="slides">
+                <img src="./image/mem-1.png" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="./image/mem-2.png" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="./image/mem-3.png" alt="">
+            </div>
+            <div class="slider__item">
+                <img src="./image/mem-4.png" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="text__wrapper">
+            <p id="text1">Текст слайда 1</p>
+            <p id="text2">Текст слайда 2</p>
+            <p id="text3">Текст слайда 3</p>
+            <p id="text4">Текст слайда 4</p>
+        </div>
+        <div class="slider__controls">
+            <label for="slide1" class="slider__control"></label>
+            <label for="slide2" class="slider__control"></label>
+            <label for="slide3" class="slider__control"></label>
+            <label for="slide4" class="slider__control"></label>
+        </div>
+    </div>
+</body>
+</html>
